@@ -1,3 +1,8 @@
+import { Appbar } from "@/components/Appbar";
 export default function Home() {
-  return <div>this is the home component</div>;
+  return (
+    <div>
+      <Appbar></Appbar>
+    </div>
+  );
 }
